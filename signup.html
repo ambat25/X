@@ -4,44 +4,53 @@
     <link href="css/bootstrap.min.css" rel="stylesheet"> 
     </head>
     
-    <body>
-        <div class="container">
-        <nav class="navbar navbar-default">
-        <ul class="nav navbar-nav">
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">EXPLORE</a></li>
-            <li><a href="#">COMMUNITY</a></li>
-        </ul>
-    </nav>
-        <div><img src="images/icon2.jpg"></div>
+   <div id="wrapper" class="">
+        <main class="container-fluid">
+        
 
-        <div>
-            <form>
-                <h3>SIGN UP</h3>
-                <div class="form-group">
-                    <label for="firstName">FIRST NAME</label>
-                    <input type="text" class="form-control" id="firstName">
-                </div>
-                <div class="form-group">
-                    <label for="lastName">LAST NAME</label>
-                    <input type="text" class="form-control" id="lastName">
-                </div>
-                <div class="form-group">
-                    <label for="email1">EMAIL</label>
-                    <input type="email" class="form-control" id="email1">
-                </div>
-                <div class="form-group">
-                    <label for="password1">PASSWORD</label>
-                    <input type="password" class="form-control" id="password1">
-                </div>
-                <div class="form-group">
-                    <label for="password2">First Name</label>
-                    <input type="password" class="form-control" id="password2">
-                </div>
+        <div class="mid log" >
+            <div class="logo-container">
+                <img class="logo" src="images/icon2.png">
+                <p id="motto">MORE THAN A PLATFORM IT'S YOUR IDENTITY</p>
+            </div>
+            <br>
+            <div id='sign-in-details'>
+               <form>
+                   <h3>SIGN UP</h3>
+                <div class="row form-content">
+                            
+                        <div class="col-lg-4 col-md-4 col-sm-4">FIRST NAME</div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><input type="text" class="my-inputs" id="firstname"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">LAST NAME</div>
+                        <div class="col-lg-8 col-md-8 col-sm-8"><input type="text" class="my-inputs" id="lastname"></div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">PASSWORD</div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                        <input type="password" class="my-inputs" id="password1">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4">CONFIRM PASSWORD</div>
+                        <div class="col-lg-8 col-md-8 col-sm-8">
+                        <input type="password" class="my-inputs" id="password2">
+                        </div>
+                        <br>
+                        <button type="submit" id="sibmit">SIGN IN</button>
+                    </div> 
                 <button type="submit" class="">CREATE ACCOUNT</button>
             </form>
-        </div>
         <div><p>ALREADY A MEMBER? <a href="#">SIGN IN</a></p></div>
+        
+
         </div>
+        </main>
+        <!-- <footer>
+            <div >            
+                <img class="footer-logo" src="images/icon1.png">
+            </div>
+        </footer> -->
+    </div>
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+       
     </body>
 </html>
